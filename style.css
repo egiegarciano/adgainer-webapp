@@ -1,0 +1,160 @@
+.sidebar-cmi{
+  padding-bottom: 8px;
+}
+
+.sidebar-cmi,
+.cmi-search-input{
+  background: #F0F3F8;
+}
+
+.sidebar-cmi-search{
+  border-bottom: 1px solid #CAD3E3;
+}
+
+.cmi-search-btn button,
+.cmi-search-input,
+.cmi-plus-btn button{
+  border: none;
+  border-radius: 0;
+  padding: 0 0 11.88px 0;
+  margin-top: 22px;
+}
+
+.cmi-search-input{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17.58px;
+  color: #CAD3E3;
+  padding-left: 24.23px;
+}
+
+.cmi-search-btn i,
+.cmi-plus-btn i{
+  color: #A1A4AB;
+}
+
+/* CMI Filter  */
+.sidebar-cmi-filter{
+  margin-top: 10.87px;
+}
+
+.sidebar-cmi-filter button{
+  background-color: #E4E9F1;
+  border: none;
+  color: #58646B;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13.18px;
+  padding: 9px 11px 8px 10px;
+}
+
+.sidebar-cmi-filter span{
+  padding: 0 34.83px 0 9px;
+}
+.dropdown-toggle::after{
+  display: none;
+}
+
+/* Contact cards */
+.contact-card {
+  position: relative;
+  padding: 16px 21px 16px 46px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  margin-top: 13px;
+}
+
+.contact-card-lead{
+  background-color: #6CC9F1;
+  padding: 7px 30px 7px 30px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 11.98px;
+  text-align: center;
+  color: #FFFFFF;
+  transform: rotate(-90deg);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: absolute;
+  top: 28px;
+  left: -28px;
+}
+
+.contact-card .content{
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.contact-card-user-img{
+  position: relative;
+}
+
+.image--cover{
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+
+  object-fit: cover;
+  object-position: center right;
+}
+
+.status-circle {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #23B255;
+  border: 2px solid #FFFFFF;
+  bottom: 1px;
+  left: 4px;
+  position: absolute;
+}
+
+.contact-card-details{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 80px;
+  justify-content: center;
+  flex-grow: 2;
+}
+
+.contact-card-name,
+.contact-card-calltime{
+  color: #58646B;
+}
+
+.contact-card-name{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.contact-card-calltime{
+  font-weight: 425;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.contact-card-textcall{
+  display: flex;
+  align-items: center;
+}
+
+.contact-card-textcall span{
+  padding: 0;
+}
+
+.contact-card-text i{
+  background-color: #FFD600;
+  border-radius: 7px;
+  color: #FFFFFF;
+  padding: 9.27px 9.81px;
+  margin-right: 7px;
+}
+
+.contact-card-call i{
+  background-color: #31B646;
+  border-radius: 50%;
+  color: #FFFFFF;
+  padding: 10px;
+}
