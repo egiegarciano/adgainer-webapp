@@ -158,3 +158,115 @@
   color: #FFFFFF;
   padding: 10px;
 }
+
+/* Direct Chat */
+.card{
+  /* border: none; */
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.card-header{
+  border-bottom: 2px solid #C9D4EA;
+  padding: 28px 42px 11px 36px;
+}
+
+.direct-chat .card-header{
+  background-color: #DCE2EC;
+  border-top-right-radius: 25px;
+}
+
+.direct-chat-user-img{
+  position: relative;
+  padding-right: 23px;
+}
+
+.direct-chat__image--cover{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+  object-fit: cover;
+  object-position: center right;
+  background: #F4F7FB;
+}
+
+.direct-chat__status-circle {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #23B255;
+  border: 2px solid #F4F7FB;
+  bottom: 1px;
+  left: 6px;
+  position: absolute;
+}
+
+.phone-name{
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.direct-chat-name{
+  margin-bottom: 6px;
+}
+
+.direct-chat-name .selected-color{
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  background-color: #FFD600;
+}
+
+.phone-number button{
+  background: #F4F7FB;
+  padding: 6px 11px 7px 11px;
+  border: none;
+  color: #4D4D4D;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.phone-number  button span{
+  padding: 0 24px 0 11px;
+}
+
+/* Card Tools */
+
+.card-tools button{
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  margin-left: 10px;
+}
+
+.active{
+  width: 40px;
+  height: 2px;
+  background: #514E4E;
+  margin: 0 0 0 10px;
+}
+
+.card-tools .message{
+  background: #FFD600;
+  padding: 9px;
+}
+
+.card-tools .sms{
+  background: #6CC9F1;
+  padding: 15px 9px;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.card-tools .mail{
+  background: #FE782C;
+  padding: 14px 9px;
+}
+
+.card-tools .phone{
+  background: #31B646;
+  padding: 13px 11px;
+}
